@@ -20,20 +20,20 @@ Ensure you have the following prerequisites installed:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/tinkle21/anonymise-data.git
+cd anonymise-data
 pip install -r requirements.txt
 
 ## Usage
-#Running in Codespaces Jupyter
+#Directly Running in Codespaces Jupyter
 Open the Jupyter notebook in your Codespaces environment.
-Open the anonymise _data.ipynb notebook.
+Open the anonymise_data.ipynb notebook.
 Execute the cells in the notebook to generate and anonymize data.
 
 #Running as a Script
 Generate fake data, anonymize, and save the results:
 
-python your_script.py
+python anonymise_data.py
 
 
 
@@ -43,8 +43,8 @@ python your_script.py
 ├── data/
 │   ├── generated_data.csv
 │   └── anonymized_data.csv
-├── anonymise _data.py
-├── anonymise _data.ipynb
+├── anonymise_data.py
+├── anonymise_data.ipynb
 ├── README.md
 ├── requirements.txt
 └── other_files...
